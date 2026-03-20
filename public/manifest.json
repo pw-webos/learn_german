@@ -1,0 +1,25 @@
+{
+  "name": "Deutsch mit Hunar",
+  "short_name": "Hunar",
+  "description": "Learn German through story — A1 to B2",
+  "start_url": "/learn_german/",
+  "scope": "/learn_german/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#7F77DD",
+  "theme_color": "#7F77DD",
+  "icons": [
+    {
+      "src": "/learn_german/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/learn_german/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
