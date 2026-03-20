@@ -86,6 +86,38 @@ const PANELS = {
     {id:3,text:"The doctor speaks.",german:"Sie haben eine leichte Erkältung. Trinken Sie viel Wasser und ruhen Sie sich aus.",action:"translate",choices:["You have a mild cold. Drink plenty of water and rest.","You need antibiotics. Come back in three days.","You have an infection. I'll write a prescription."],correct:0},
     {id:4,text:"Sick note in hand. New word: Erkältung. Germany 1, Hunar 1. +50 XP",action:"complete"},
   ],
+
+  9:[
+    {id:1,text:"Two weeks in Munich. Hunar has a routine. But something is missing. Back home there was always something to do on weekends — cricket, chai with friends, long evenings. Here, the weekends feel quiet. Too quiet.",action:null},
+    {id:2,text:"A flyer appears under the apartment door. Hunar picks it up.",german:"Sportverein München e.V.\nFußball, Tennis, Schwimmen\nNeue Mitglieder willkommen!\nSamstag 10:00 Uhr — Probetraining kostenlos",action:"translate",choices:["Sports club Munich — Football, Tennis, Swimming. New members welcome! Saturday 10am — free trial session.","Sports shop Munich — Equipment sale. Football, Tennis, Swimming gear. Saturday 10am — doors open.","Sports event Munich — Competition day. Football, Tennis, Swimming. Saturday 10am — registration required."],correct:0},
+    {id:3,text:"Hunar decides to go. At the club, someone asks about hobbies. Tap the phrases Hunar needs.",action:"tap",tapWords:[{word:"Ich spiele gern",meaning:"I like playing"},{word:"Ich schwimme",meaning:"I swim"},{word:"In meiner Freizeit",meaning:"in my free time"},{word:"Ich mag Musik",meaning:"I like music"}]},
+    {id:4,text:"Hunar joins a Fußball group. Within an hour, there are three new names to remember. Sport, it turns out, is a universal language.",german:"Spielst du oft Fußball?",action:"translate",choices:["Do you play football often?","Do you watch football often?","Do you like football at all?"],correct:0},
+    {id:5,text:"Saturday afternoon. Sweaty, happy, slightly lost linguistically — but belonging. Munich is starting to feel like home. +50 XP",action:"complete"},
+  ],
+
+  10:[
+    {id:1,text:"The savings from India won't last forever. Hunar needs a job. The laptop opens. The job search begins.",action:null},
+    {id:2,text:"A promising listing appears online. Hunar reads it carefully.",german:"Wir suchen einen Mitarbeiter (m/w/d)\nfür unser Büro in München.\nVollzeit · ab sofort\nDeutschkenntnisse erforderlich.",action:"translate",choices:["We are looking for an employee for our Munich office. Full time, starting immediately. German skills required.","We are looking for a manager for our Munich branch. Part time, from next month. English skills preferred.","We are looking for an intern for our Munich team. Full time, from January. No experience needed."],correct:0},
+    {id:3,text:"Hunar calls the company. The receptionist answers. Tap what you need to say.",action:"tap",tapWords:[{word:"Ich rufe wegen",meaning:"I am calling about"},{word:"der Stelle",meaning:"the position"},{word:"Ich möchte mich bewerben",meaning:"I would like to apply"},{word:"Haben Sie einen Termin?",meaning:"Do you have an appointment?"}]},
+    {id:4,text:"A meeting is arranged. Hunar prepares. The night before, practising answers in the mirror.",german:"Was sind Sie von Beruf?",action:"translate",choices:["What is your profession?","Where do you work currently?","How long have you been working?"],correct:0},
+    {id:5,text:"The interview goes well. Not perfectly — some words escape Hunar mid-sentence — but well enough. 'Wir melden uns,' they say. We'll be in touch. +50 XP",action:"complete"},
+  ],
+
+  11:[
+    {id:1,text:"Hunar's phone rings. Unknown Munich number. Heart racing — could it be the job? It's not. It's the Krankenkasse asking for paperwork. Then the landlord about a form. Then the Finanzamt about a tax number. Germany runs on phone calls.",action:null},
+    {id:2,text:"Hunar calls the Bürgeramt to arrange an appointment. The automated message begins.",german:"Willkommen beim Bürgeramt München. Für Terminvereinbarungen drücken Sie die 1. Für allgemeine Informationen drücken Sie die 2.",action:"translate",choices:["Welcome to Munich Citizens' Office. For appointments press 1. For general information press 2.","Welcome to Munich City Hall. For complaints press 1. For opening hours press 2.","Welcome to Munich Registration Office. For urgent matters press 1. For standard queries press 2."],correct:0},
+    {id:3,text:"Finally a real person. Hunar needs to communicate clearly. Tap the essential phone phrases.",action:"tap",tapWords:[{word:"Ich hätte gern einen Termin",meaning:"I would like an appointment"},{word:"Können Sie das wiederholen?",meaning:"Can you repeat that?"},{word:"Wie schreibt man das?",meaning:"How do you spell that?"},{word:"Ich verstehe nicht",meaning:"I don't understand"}]},
+    {id:4,text:"The appointment is made. Thursday at 9:15. Hunar writes it down three times.",german:"Bitte bringen Sie alle Dokumente mit.",action:"translate",choices:["Please bring all documents with you.","Please send all documents by post.","Please have all documents ready online."],correct:0},
+    {id:5,text:"Thursday. Documents in a folder, labelled, organised. Hunar walks into the Bürgeramt. The number ticket says 47. The board says 31. This could take a while. +50 XP",action:"complete"},
+  ],
+
+  12:[
+    {id:1,text:"Number 47 is called. Hunar walks to window 3. Frau Hoffmann, mid-50s, reads glasses on the tip of her nose, looks up.",german:"Guten Morgen. Was kann ich für Sie tun?",action:"translate",choices:["Good morning. What can I do for you?","Good morning. Do you have an appointment?","Good morning. Please take a seat."],correct:0},
+    {id:2,text:"Hunar explains the situation. Frau Hoffmann listens, types, peers at the screen. Then she says something that requires full concentration.",german:"Sie müssen sich hier anmelden und dafür brauchen Sie Ihren Reisepass, einen Nachweis über Ihre Wohnung und das ausgefüllte Formular A37.",action:"translate",choices:["You need to register here and for that you need your passport, proof of your address and the completed form A37.","You need to come back here with your passport, a letter from your employer and the completed form B12.","You need to register online and upload your passport, a utility bill and the completed form A37."],correct:0},
+    {id:3,text:"Hunar has most things. But form A37 is new. Tap the phrases needed to navigate this.",action:"tap",tapWords:[{word:"Wo bekomme ich",meaning:"where do I get"},{word:"das Formular",meaning:"the form"},{word:"Können Sie mir helfen?",meaning:"can you help me?"},{word:"Ich habe nicht verstanden",meaning:"I didn't understand"}]},
+    {id:4,text:"Frau Hoffmann, to her credit, prints the form on the spot. Hunar fills it in right there at the counter. Frau Hoffmann checks it, stamps it — that deeply satisfying German stamp — and hands back a document.",german:"Herzlichen Glückwunsch. Sie sind jetzt offiziell in München angemeldet.",action:"translate",choices:["Congratulations. You are now officially registered in Munich.","Congratulations. Your application has been submitted successfully.","Congratulations. Your residence permit has been approved."],correct:0},
+    {id:5,text:"Offiziell angemeldet. Official. Real. Hunar steps out into the Munich sunshine holding a piece of paper that says: you belong here now. A1 complete. +100 XP 🎉",action:"complete"},
+  ],
 }
 
 const EPISODE_LIST = [
@@ -385,16 +417,37 @@ function VocabGame({episodeId,profileId,onDone,onBack}) {
       else setDone(true)
     },700)
   }
+  const isA1Complete = episodeId === 12
+
   if(done) return (
     <div style={{textAlign:"center",padding:"2rem 0"}}>
-      <div style={{fontSize:48,marginBottom:16}}>🎉</div>
-      <h3 style={{fontSize:18,fontWeight:500,margin:"0 0 8px"}}>Vocab round complete!</h3>
-      <div style={{display:"flex",gap:12,justifyContent:"center",margin:"20px 0"}}>
-        <div style={{padding:"12px 20px",background:C.greenLight,borderRadius:"8px",textAlign:"center"}}><div style={{fontSize:22,fontWeight:500,color:C.green}}>{scores.know}</div><div style={{fontSize:12,color:C.green}}>I knew it</div></div>
-        <div style={{padding:"12px 20px",background:C.amberLight,borderRadius:"8px",textAlign:"center"}}><div style={{fontSize:22,fontWeight:500,color:C.amber}}>{scores.review}</div><div style={{fontSize:12,color:C.amber}}>needs review</div></div>
-      </div>
-      <p style={{fontSize:13,color:"#888",margin:"0 0 24px"}}>Words to review saved to your Daily Review.</p>
-      <button onClick={()=>onDone(scores.know*10)} style={{padding:"12px 32px",background:C.purple,color:"#fff",border:"none",borderRadius:"12px",fontSize:15,fontWeight:500,cursor:"pointer"}}>Back to map · +{scores.know*10} XP</button>
+      {isA1Complete ? (
+        <>
+          <div style={{fontSize:64,marginBottom:16}}>🏆</div>
+          <div style={{background:`linear-gradient(135deg, ${C.purpleLight}, ${C.tealLight})`,borderRadius:"16px",padding:"24px",marginBottom:24,border:`1px solid ${C.purple}`}}>
+            <h2 style={{fontSize:22,fontWeight:500,margin:"0 0 8px",color:C.purpleDark}}>A1 Complete!</h2>
+            <p style={{fontSize:14,color:C.purpleDark,margin:"0 0 16px",lineHeight:1.7}}>Hunar is officially registered in Munich. You've covered all 12 A1 topics, 600 vocabulary words and every grammar concept Goethe requires.</p>
+            <div style={{display:"flex",gap:8,justifyContent:"center",flexWrap:"wrap"}}>
+              {["600 words","18 grammar concepts","12 episodes","Goethe A1 ready"].map(b=>(
+                <span key={b} style={{fontSize:12,padding:"4px 10px",borderRadius:99,background:"#fff",color:C.purpleDark,fontWeight:500}}>{b}</span>
+              ))}
+            </div>
+          </div>
+          <p style={{fontSize:13,color:"#888",margin:"0 0 24px"}}>A2 unlocked. Hunar's story continues...</p>
+          <button onClick={()=>onDone(scores.know*10+100)} style={{width:"100%",padding:"14px 0",background:C.purple,color:"#fff",border:"none",borderRadius:"12px",fontSize:16,fontWeight:500,cursor:"pointer"}}>Start A2 · +{scores.know*10+100} XP 🚀</button>
+        </>
+      ) : (
+        <>
+          <div style={{fontSize:48,marginBottom:16}}>🎉</div>
+          <h3 style={{fontSize:18,fontWeight:500,margin:"0 0 8px"}}>Vocab round complete!</h3>
+          <div style={{display:"flex",gap:12,justifyContent:"center",margin:"20px 0"}}>
+            <div style={{padding:"12px 20px",background:C.greenLight,borderRadius:"8px",textAlign:"center"}}><div style={{fontSize:22,fontWeight:500,color:C.green}}>{scores.know}</div><div style={{fontSize:12,color:C.green}}>I knew it</div></div>
+            <div style={{padding:"12px 20px",background:C.amberLight,borderRadius:"8px",textAlign:"center"}}><div style={{fontSize:22,fontWeight:500,color:C.amber}}>{scores.review}</div><div style={{fontSize:12,color:C.amber}}>needs review</div></div>
+          </div>
+          <p style={{fontSize:13,color:"#888",margin:"0 0 24px"}}>Words to review saved to your Daily Review.</p>
+          <button onClick={()=>onDone(scores.know*10)} style={{padding:"12px 32px",background:C.purple,color:"#fff",border:"none",borderRadius:"12px",fontSize:15,fontWeight:500,cursor:"pointer"}}>Back to map · +{scores.know*10} XP</button>
+        </>
+      )}
     </div>
   )
   return (
@@ -443,12 +496,21 @@ function WordBankScreen({profileId,onBack}) {
           <div key={epId} style={{marginBottom:20}}>
             <div style={{fontSize:12,fontWeight:500,color:"#888",marginBottom:8,textTransform:"uppercase",letterSpacing:0.5}}>{ep?.title} · {epWords.length} words</div>
             <div style={{display:"flex",flexDirection:"column",gap:4}}>
-              {epWords.map(w=>(
-                <div key={w.id} style={{display:"flex",justifyContent:"space-between",padding:"8px 12px",background:"#f9f9f9",borderRadius:"6px",border:"0.5px solid #eee"}}>
-                  <span style={{fontSize:14,fontWeight:500,color:"#222"}}>{w.de}</span>
-                  <span style={{fontSize:13,color:"#888"}}>{w.en}</span>
-                </div>
-              ))}
+              {epWords.map(w=>{
+                const articleMatch = w.de.match(/^(der|die|das)\s+/)
+                const article = articleMatch ? articleMatch[1] : null
+                const articleColor = article==="der"?C.blue:article==="die"?C.pink:article==="das"?C.teal:null
+                const wordWithoutArticle = article ? w.de.replace(/^(der|die|das)\s+/,"") : w.de
+                return (
+                  <div key={w.id} style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"8px 12px",background:"#f9f9f9",borderRadius:"6px",border:"0.5px solid #eee"}}>
+                    <div style={{display:"flex",alignItems:"center",gap:6}}>
+                      {article && <span style={{fontSize:11,fontWeight:500,padding:"1px 6px",borderRadius:4,background:articleColor==="#185FA5"?C.blueLight:articleColor===C.pink?C.pinkLight:C.tealLight,color:articleColor,minWidth:24,textAlign:"center"}}>{article}</span>}
+                      <span style={{fontSize:14,fontWeight:500,color:"#222"}}>{wordWithoutArticle}</span>
+                    </div>
+                    <span style={{fontSize:13,color:"#888"}}>{w.en}</span>
+                  </div>
+                )
+              })}
             </div>
           </div>
         )
